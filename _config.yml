@@ -1,6 +1,0 @@
-title: "My Jekyll Site"
-description: "A simple Jekyll website."
-baseurl: ""
-url: "http://localhost:4000"
-
-theme: minima
