@@ -1,4 +1,28 @@
+# Ignore Jekyll build and cache files
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Git and GitHub files
+.git/
+.gitignore
+
+# Ignore CloudCannon settings (if applicable)
+.cloudcannon/
+
+# Ignore Docker files (if using Docker)
+.docker/
+docker-compose.yml
+
+# Ignore Ruby and Jekyll dependencies
+.bundle/
+vendor/
+Gemfile.lock

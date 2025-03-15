@@ -1,2 +1,31 @@
-# Auto detect text files and perform LF normalization
+# Ensure all text files use LF line endings
 * text=auto
+
+# Treat Markdown files as text
+*.md text eol=lf
+
+# Treat YAML files as text
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Ensure JSON files are normalized
+*.json text
+
+# Ignore binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.mp4 binary
+*.mp3 binary
+
+# Ignore Jekyll build files
+_site/ export-ignore
+.sass-cache/ export-ignore
+.jekyll-cache/ export-ignore
+.jekyll-metadata export-ignore
