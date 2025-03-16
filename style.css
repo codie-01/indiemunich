@@ -125,6 +125,17 @@ p { line-height: 1.5rem;}
     color: white;
  }
 
+.bg-girl {
+    background-image: url('/images/indie-girl-1.jpg');
+    background-color: #017fff;
+}
+
+.bg {
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 
