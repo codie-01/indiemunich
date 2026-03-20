@@ -246,6 +246,11 @@ header img {
     align-items: center;
     gap: 30px;
   }
+
+  .nav-fix {
+    margin-left: 0;
+    margin-right: 0;
+  }
   
   .nav-branding {
     font-size: 2rem;
